@@ -826,9 +826,9 @@ h4 {
     background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
-.bg-presentation {
+/*.bg-presentation {
     background-image: url("img/image-de-presentation.webp");
-}
+}*/
 
 @media (max-width: 1024px) {
     .bloc {
@@ -866,12 +866,12 @@ h4 {
 }
 
 @media (max-width: 991px) {
-    .bg-presentation {
+    /*.bg-presentation {
         background-image: url("img/image-de-presentation-tablet.webp");
     }
     .bg-banniere {
         background-image: url("img/la-chouette-agence-banniere-tablet.webp");
-    }
+    }*/
     .container {
         width: 100%;
     }
@@ -895,12 +895,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .bg-presentation {
+    /*.bg-presentation {
         background-image: url("img/image-de-presentation-mobile.webp");
     }
     .bg-banniere {
         background-image: url("img/la-chouette-agence-banniere-mobile.webp");
-    }
+    }*/
     .page-container {
         overflow-x: hidden;
         position: relative;
