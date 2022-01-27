@@ -10,12 +10,15 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+
+a:focus-visible {
+    outline: 2px solid black;
 }
 
 #page-loading-blocs-notifaction {
@@ -332,9 +335,8 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: #ff979c98
+.nav > li a:focus-visible {
+    outline: 2px solid black;
 }
 
 .navbar-toggle {
